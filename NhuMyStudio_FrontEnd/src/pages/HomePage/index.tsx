@@ -8,6 +8,7 @@
 
 // export { HomePage }
 
+import Footer from "../../components/layouts/Footer";
 import Navbar from "../../components/layouts/Navbar";
 import Home from "../../components/partial/HomeManagement";
 import style from "./style.module.scss";
@@ -15,7 +16,8 @@ export default function HomePage() {
   return (
     <div className={style.main}>
       <Navbar />
-      <Home />
+      <main><Home /></main>
+      <Footer/>
     </div>
   );
 }

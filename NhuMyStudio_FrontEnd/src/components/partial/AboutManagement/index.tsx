@@ -3,11 +3,14 @@ export default function About() {
   return (
     <div className={style.main}>
       <div>
-        <div>
-          <h1 className="text-black">a</h1>
+        <div className="">
+          <h1 className=""></h1>
         </div>
-        <div>a</div>
-        <div>a</div>
+
+
+
+        <div className="flex justify-center w-full" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ex earum est voluptatum temporibus reprehenderit reiciendis dolores quisquam accusantium nobis modi voluptate illo non eveniet corrupti exercitationem, repellendus commodi labore!</div>
+        <div></div>
         <div>a</div>
         <div>a</div>
         <div>a</div>

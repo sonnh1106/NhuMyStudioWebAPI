@@ -5,7 +5,10 @@ export default function AboutPage() {
   return (
     <div>
       <Navbar />
-      <About />
+
+      <main>
+        <About />
+      </main>
     </div>
   );
 }
