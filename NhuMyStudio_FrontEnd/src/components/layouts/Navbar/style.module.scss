@@ -1,20 +1,19 @@
 .main {
   background-color: transparent;
-  color: gold ;
-  font: 1em sans-serif ;
+  color: white;
+  font: 1em sans-serif;
   padding: 50px;
 
-  
-  >div{
+  > div {
     display: flex;
     justify-content: center;
-    
+
     width: 100%;
-    div:nth-child(2){
+    div:nth-child(2) {
       margin: 0px 80px;
-      a{
+      a {
         margin: 0px 30px;
       }
-     }
+    }
   }
 }

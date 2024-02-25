@@ -8,12 +8,14 @@
 
 // export { HomePage }
 
-import Navbar from '../../components/layouts/Navbar'
-import style from "./style.module.scss"
+import Navbar from "../../components/layouts/Navbar";
+import Home from "../../components/partial/HomeManagement";
+import style from "./style.module.scss";
 export default function HomePage() {
   return (
-    <div className={style.main} >
-        <Navbar/>
+    <div className={style.main}>
+      <Navbar />
+      <Home />
     </div>
-  )
+  );
 }
