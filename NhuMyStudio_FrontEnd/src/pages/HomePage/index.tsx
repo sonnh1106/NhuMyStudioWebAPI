@@ -16,8 +16,10 @@ export default function HomePage() {
   return (
     <div className={style.main}>
       <Navbar />
-      <main><Home /></main>
-      <Footer/>
+      <main>
+        <Home />
+      </main>
+      <Footer />
     </div>
   );
 }

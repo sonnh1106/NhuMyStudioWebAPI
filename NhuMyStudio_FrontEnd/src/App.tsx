@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+// import TestPage from "./pages/TestPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/vi" element={<HomePage />}></Route>
           <Route path="/vi/about" element={<AboutPage />}></Route>
+          {/* <Route path="/vi/test" element={<TestPage />}></Route> */}
 
           {/* <Route
             path="/user-management"
