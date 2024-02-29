@@ -1,8 +1,7 @@
-import React from "react";
 import { useKeenSlider } from "keen-slider/react"; // import from 'keen-slider/react.es' for to get an ES module
 import "./style2.scss";
 export default function KeenSlider() {
-  const [sliderRef, instanceRef] = useKeenSlider(
+  const [sliderRef] = useKeenSlider(
     {
       slideChanged() {
         console.log("slide changed");
